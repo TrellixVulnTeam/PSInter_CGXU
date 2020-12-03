@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3db2f46f-b1cf-44ba-87ec-1b74649b0306" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Projekt/warzywniak/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cwiczenie2/nazwa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Cwiczenie2/nazwa.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +204,8 @@
       <workItem from="1606134145713" duration="2406000" />
       <workItem from="1606136593952" duration="455000" />
       <workItem from="1606137296669" duration="722000" />
-      <workItem from="1606556782016" duration="16715000" />
+      <workItem from="1606556782016" duration="17762000" />
+      <workItem from="1607001165827" duration="4312000" />
     </task>
     <servers />
   </component>
