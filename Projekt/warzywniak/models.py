@@ -18,3 +18,4 @@ class Zamowienia(models.Model):
     id_Klienta = models.ForeignKey(Klienci, on_delete=models.CASCADE)
     Data_Zamowienia = models.DateTimeField(auto_now_add=True)
     Ilosc = models.IntegerField()
+

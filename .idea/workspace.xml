@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3db2f46f-b1cf-44ba-87ec-1b74649b0306" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Projekt/warzywniak/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/Projekt/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/Projekt/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/warzywniak/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/warzywniak/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/warzywniak/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/warzywniak/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/warzywniak/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/warzywniak/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +209,8 @@
       <workItem from="1606136593952" duration="455000" />
       <workItem from="1606137296669" duration="722000" />
       <workItem from="1606556782016" duration="17762000" />
-      <workItem from="1607001165827" duration="4312000" />
+      <workItem from="1607001165827" duration="4405000" />
+      <workItem from="1607861200620" duration="4201000" />
     </task>
     <servers />
   </component>
