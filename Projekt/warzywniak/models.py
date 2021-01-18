@@ -1,5 +1,6 @@
 from django.db import models
-from djmoney.models.fields import MoneyField
+from djmoney.models.fields import *
+
 
 class Klienci(models.Model):
     Imie = models.CharField(max_length=30)
@@ -10,12 +11,12 @@ class Klienci(models.Model):
 
 class Warzywa(models.Model):
     Warzywo = models.CharField(max_length=30)
-    Cena = MoneyField(max_digits=8, decimal_places=2, default_currency='PLN')
+    Cena = models.DecimalField(max_digits=8, decimal_places=2)
 
 
 class Zamowienia(models.Model):
-    id_Warzywa = models.ForeignKey(Warzywa, on_delete=models.CASCADE)
-    id_Klienta = models.ForeignKey(Klienci, on_delete=models.CASCADE)
-    Data_Zamowienia = models.DateTimeField(auto_now_add=True)
+    id_warzywa = models.ForeignKey(Warzywa,related_name='zamowienia', on_delete=models.CASCADE)
+    id_klienta = models.ForeignKey(Klienci,related_name='zamowienia', on_delete=models.CASCADE)
+    Data_Zamowienia = models.DateTimeField(auto_now_add=False)
     Ilosc = models.IntegerField()
 
